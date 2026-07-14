@@ -18,6 +18,11 @@ const app = express();
 app.use(cors({ origin: '*' })); // Allow open access (useful for cross-domain academic testing)
 app.use(express.json());
 
+// Render health check endpoint
+app.get('/', (req, res) => {
+  res.status(200).json({ status: 'ok', message: 'Smart Expense Tracker API running' });
+});
+
 // Serve static profile pictures
 app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 
