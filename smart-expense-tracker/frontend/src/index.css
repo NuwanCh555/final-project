@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply selection:bg-brand-500 selection:text-white;
+  }
+}
+
+/* Premium Glassmorphism Component Classes */
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-glass border border-white/40 shadow-glass rounded-2xl;
+}
+
+.glass-panel-hover {
+  @apply transition-all duration-300 hover:bg-white/90 hover:shadow-glass-hover hover:border-brand-100;
+}
+
+.glass-input {
+  @apply bg-white/50 border border-slate-200 rounded-xl px-4 py-2.5 outline-none transition-all duration-200 focus:border-brand-500 focus:bg-white focus:ring-2 focus:ring-brand-100;
+}
+
+/* Custom Scrollbar Styles for Slate Themed Layouts */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full hover:bg-slate-300;
+}
+
+/* Pulse Glow & Floating Micro-animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animate-slide-in {
+  animation: slide-in-right 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

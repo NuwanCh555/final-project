@@ -1,0 +1,408 @@
+--- PAGE 1 ---
+  
+ 
+ 
+  
+Smart Expense Tracker Web System Proposal   
+   
+  
+      
+HNDIT4052   
+   
+Name of the Supervisor:   
+Mr. Thilina Bandara   
+   
+Department of Information Technology   
+Advanced Technological Institute   
+Rathnapura   
+   
+M.C. Nuwan   
+RA T/IT/2324/F/0055   
+   
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+--- PAGE 2 ---
+  
+  
+ 
+2   
+   
+  
+Contents   
+                        Page   
+1. Introduction / Background ................................................................................................ 
+3  
+2. Problem Statement ............................................................................................................ 
+4  
+3. Objectives 
+.......................................................................................................................... 5  
+3.1 General Objectives .......................................... Error! Bookmark not defined.  
+3.2 Specific Objectives ......................................... Error! Bookmark not defined.  
+4. Proposed Solution ............................................................................................................. 
+6  
+5. Methodology / Development Approach 
+............................................................................ 7  
+6. System Requirements 
+........................................................................................................ 8  
+6.1 Functional Requirements ................................ Error! Bookmark not defined.  
+6.2 Non-Functional Requirements ......................... Error! Bookmark not 
+defined.  
+7. Tools and Technologies 
+..................................................................................................... 9  
+8. Project Timeline / Schedule ............................................................................................ 
+10  
+9. Expected Outcomes (Deliverables, Benefits) ................................................................. 
+11  
+10. Risks and limitations ..................................................................................................... 
+12  
+11. Conclusion ..................................................................................................................... 
+13  
+--- PAGE 3 ---
+    
+  
+ 
+  
+3   
+   
+  
+   
+   
+   
+   
+   
+   
+1. Introduction / Background   
+In today’s fast-paced digital world, managing personal finances has become increasingly 
+important. Many individuals struggle to track their daily income and expenses effectively, 
+often relying on manual methods such as notebooks or simple calculators. These traditional 
+methods are prone to errors, lack proper organization, and do not provide meaningful insights 
+into spending patterns.  
+With the advancement of web technologies, there is a growing need for a smart and 
+automated solution to manage personal finances. A web-based expense tracking system 
+allows users to record, monitor, and analyze their financial activities in a more efficient and 
+user-friendly manner.  
+This project proposes the development of a Smart Expense Tracker Web System that 
+enables users to manage their income and expenses, visualize spending habits, and maintain 
+financial discipline. The system aims to provide a simple, secure, and effective platform for 
+personal financial management.  
+   
+   
+   
+--- PAGE 4 ---
+  
+  
+ 
+4   
+   
+   
+   
+   
+   
+   
+  
+   
+  
+2. Problem Statement   
+Many people face difficulties in managing their finances due to lack of proper tools and 
+systems.  
+✓ Common problems include:  
+• Manual tracking leads to calculation errors   
+• No clear visibility of spending patterns   
+• Difficulty in categorizing expenses   
+• No budget control or alerts   
+• Lack of financial insights and reports   
+As a result, users often overspend and fail to maintain financial stability.  
+   
+   
+   
+   
+   
+   
+--- PAGE 5 ---
+    
+  
+ 
+  
+5   
+   
+   
+   
+   
+   
+  
+ 3. Objectives   
+3.1 General Objective  
+To develop a web-based Smart Expense Tracker system that helps users efficiently manage 
+and monitor their personal finances.  
+3.2 Specific Objectives  
+• To allow users to record income and expenses   
+• To categorize financial transactions   
+• To provide a dashboard with financial summary   
+• To generate charts for data visualization   
+• To implement a budget limit with alerts   
+• To ensure secure user authentication   
+   
+   
+   
+   
+   
+   
+--- PAGE 6 ---
+  
+  
+ 
+6   
+   
+   
+   
+   
+   
+   
+  
+4. Proposed Solution   
+The proposed system is a web-based Smart Expense Tracker that allows:  
+✓ User registration and login  
+✓ Adding income (salary, bonus, etc.)  
+✓ Adding expenses (food, transport, bills, etc.)  
+✓ Categorizing transactions  
+✓ Viewing total income, expenses, and balance  
+✓ Visualizing data using charts (pie chart, bar chart)  
+✓ Setting monthly budget limits with warnings  
+This system will simplify financial management and help users make better financial 
+decisions.  
+   
+   
+   
+   
+   
+   
+   
+   
+--- PAGE 7 ---
+    
+  
+ 
+  
+7   
+   
+   
+   
+   
+   
+    
+5. Methodology / Development Approach   
+The system will be developed using the Agile methodology to allow continuous 
+improvements.  
+Development steps include:  
+• Requirement gathering   
+• System design (UI/UX + database)   
+• Frontend and backend development   
+• Testing (unit testing & system testing)   
+• Deployment and maintenance  
+   
+   
+   
+   
+   
+   
+--- PAGE 8 ---
+  
+  
+ 
+8   
+   
+   
+   
+   
+    
+  
+  
+6. System Requirements   
+6.1 Functional Requirements  
+• User registration and login system   
+• Add, update, delete transactions (CRUD)   
+• Income and expense management   
+• Category-based filtering   
+• Dashboard with financial summary   
+• Charts and reports   
+• Budget limit and alert system   
+6.2 Non-Functional Requirements  
+• User-friendly interface   
+• Fast system performance   
+• Secure authentication (JWT)   
+• Responsive design (mobile & desktop)   
+--- PAGE 9 ---
+    
+  
+ 
+  
+9   
+   
+• Data privacy and protection  
+  
+  
+  
+7. Tools and Technologies   
+• Frontend: React.js   
+• Backend: Node.js (Express)   
+• Database: MongoDB   
+• Version Control: Git   
+• IDE: VS Code   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+--- PAGE 10 ---
+  
+  
+ 
+10   
+   
+   
+   
+   
+   
+   
+   
+   
+8. Project Timeline / Schedule   
+  
+Phase   Duration   
+Requirement Analysis   1 week   
+Design   1 week   
+Development   3 week   
+Testing   1 week   
+Deployment   1 week   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+--- PAGE 11 ---
+    
+  
+ 
+  
+11   
+   
+   
+   
+   
+   
+   
+9. Expected Outcomes (Deliverables, Benefits)   
+Deliverables  
+• Fully functional web application   
+• Database system   
+• Documentation   
+• User guide   
+Benefits  
+• Easy financial tracking   
+• Better spending control   
+• Improved financial awareness   
+• Time-saving and efficient system  
+   
+   
+--- PAGE 12 ---
+  
+  
+ 
+12   
+   
+   
+   
+   
+   
+   
+   
+    
+10. Risks and Limitations   
+• Internet dependency   
+• Data security risks if not properly handled   
+• Limited technical knowledge of some users   
+• Time constraints during development   
+Proper security measures and testing will minimize these risks.  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+  
+--- PAGE 13 ---
+    
+  
+ 
+  
+13   
+   
+  
+  
+  
+  
+  
+  
+  
+11. Conclusion   
+The Smart Expense Tracker Web System provides an effective solution for managing 
+personal finances in a digital way. By automating income and expense tracking, the system 
+reduces errors and improves financial awareness.  
+It helps users monitor their spending habits, control budgets, and make smarter financial 
+decisions. Overall, this project contributes to improving personal financial management using 
+modern web technologies.  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+--- PAGE 14 ---
+  
+  
+ 
+14   
+   
+   
+   
+   
