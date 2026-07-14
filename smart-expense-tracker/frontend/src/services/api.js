@@ -3,7 +3,7 @@ import { mockApiService } from './mockApiService';
 
 // Configure standard Axios instance
 const axiosInstance = axios.create({
-  baseURL: '/api',
+  baseURL:'https://expense-tracker-0fu3.onrender.com',
   timeout: 5000,
 });
 
